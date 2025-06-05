@@ -45,6 +45,8 @@ export default function Home() {
     "Punya uang yang banyak😁😁😁",
     "Selalu jadi anak ayah dan ibu yang membanggakan",
     "Jadi inspirasi dari adik adik kamu",
+    "Terus kurangin juga suka marahnya😠😠😠",
+    "Lebih sabar lagiiii",
     "Last but not least...",
     "Semoga kita selalu bisa ngerayain ultah bareng ya!!",
     "Sampai selama lamanyaaaaaaaa",
