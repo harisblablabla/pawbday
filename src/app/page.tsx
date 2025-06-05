@@ -159,7 +159,7 @@ export default function Home() {
               </h1>
               <div className="carousel rounded-box w-full rounded-none">
                 {Array.from({length: 29}, (_,i) => i + 1).map( (num) => (
-                <div className="relative carousel-item h-[300px] sm:h-[400px] md:h-[500px]" key={num}>
+                <div className="carousel-item relative aspect-portrait-custom h-[300px] sm:h-[400px] md:h-[500px]" key={num}>
                   <Image className='object-cover w-full h-full' src={`/images/carousel/carousel${num}.webp`} width={700} height={1600} alt={`carousel-${num}`}/>
                 </div>
                 ))
