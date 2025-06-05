@@ -39,7 +39,7 @@ export default function Home() {
     "Thank you sudah jadi pasangan aku",
     "thanks for everything",
     "Wishing you all the best",
-    "Wishing you anything, yang lagi ditargetkan tahun ini tercapai",
+    "Wishing you anything yang lagi ditargetkan tahun ini tercapai",
     "Kamu bisa lulus tepat waktu, IPK BAGUS",
     "Semoga kamu selalu diberikan kesehatan",
     "Punya uang yang banyak😁😁😁",
