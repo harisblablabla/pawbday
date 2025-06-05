@@ -112,7 +112,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[150px] w-full"></div> {/* Adjust height to match lamp */}
+      <div className="h-[125px] w-full"></div> {/* Adjust height to match lamp */}
 
       {/* 2. CONTENT LAYERS: These sit on top of the backgrounds */}
       <div className="relative z-10 flex flex-col items-center justify-start w-screen">
@@ -159,8 +159,8 @@ export default function Home() {
               </h1>
               <div className="carousel rounded-box w-full rounded-none">
                 {Array.from({length: 29}, (_,i) => i + 1).map( (num) => (
-                <div className="carousel-item" key={num}>
-                  <Image className='object-cover' src={`/images/carousel/carousel${num}.webp`} width={200} height={10} alt={`carousel-${num}`}/>
+                <div className="relative carousel-item h-[300px] sm:h-[400px] md:h-[500px]" key={num}>
+                  <Image className='object-cover w-full h-full' src={`/images/carousel/carousel${num}.webp`} width={700} height={1600} alt={`carousel-${num}`}/>
                 </div>
                 ))
                 }
