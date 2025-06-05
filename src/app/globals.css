@@ -17,3 +17,14 @@ html, body {
 .font-fredoka-custom {
   font-family: var(--font-fredoka), sans-serif; /* Add a fallback font */
 }
+
+/* Add your custom aspect ratio class */
+.carousel-item-portrait {
+  /* For your 700x1600 images, ratio is 700 / 1600 = 0.4375 */
+  /* Use the calc function to ensure it's calculated relative to height for portrait */
+  /* A more common way for portrait would be aspect-ratio: 3 / 4; or 2 / 3; */
+  aspect-ratio: 9 / 16; /* width / height */
+  /* Alternatively, for a common portrait look like 3:4 or 2:3 */
+  /* aspect-ratio: 3 / 4; */ /* Example: a slightly wider portrait */
+  /* aspect-ratio: 2 / 3; */ /* Example: a taller portrait */
+}
